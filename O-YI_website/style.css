@@ -1,0 +1,34 @@
+html {
+  background-color: #2e827b;
+  background-image: url("xs/mask.png");
+  background-size: cover;
+}
+html .nav.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  padding: 2%;
+}
+html .nav.container a {
+  text-decoration: none;
+}
+html .menu {
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+/* @media screen and (max-device-width : 320px) */
+}
+html .menu .menu-item a {
+  text-decoration: none;
+  color: #fff;
+}
+html .menu .menu-item a:hover h3 {
+  color: #bfd730;
+}
+html .menu .menu-item a:active h3 {
+  color: #bfd730;
+}

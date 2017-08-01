@@ -1,0 +1,277 @@
+ /* HEADER styles begin */
+@font-face {
+    font-family: "BrandonGrotsque Bold"; /* Имя шрифта */
+    src: url(fonts/brandon-grotesque-bold.otf); /* Путь к файлу со шрифтом */
+   }
+
+ @font-face {
+    font-family: "BrandonGrotsque Light"; /* Имя шрифта */
+    src: url(fonts/brandon-grotesque-light.otf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: "Cubano Regular"; /* Имя шрифта */
+    src: url(fonts/Cubano-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: "Myriad Pro regular"; /* Имя шрифта */
+    src: url(fonts/Myriad Pro regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+ h1 {
+    margin: 0;
+    padding: 0;
+    }
+
+.main-header {
+
+  background-color: green;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	}
+
+.navbar.navbar-default.row {
+		margin-top: 10px;
+		background-color: transparent ;
+		border: none;
+		padding-top: 20px;
+		padding-bottom: 120px;
+		color: white;
+		font-family: "Myriad Pro regular";
+	}
+
+.navbar-brand span:last-child{
+		letter-spacing: 0.15em;
+}
+.navbar.navbar-default.row a {
+	color: white;
+	}
+
+.btn {
+		width: 240px;
+		height: 65px;
+		background-color: transparent ;
+		padding:20px 60px;
+		font-weight: bolder;
+		color: white;
+		border: 3px solid white;
+		margin-top: 60px;
+	}
+
+.btn:hover {
+	background-color: transparent;
+	font-weight: bolder;
+	color: white;
+	border: 3px solid white;
+	filter: brightness(70%);
+	filter: opacity(60%);
+}
+
+.jumbotron  {
+	margin-top: 50px;
+	margin-bottom: 200px;
+	background-color: transparent;
+	padding:10px 40px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.jumbotron h1 {
+	font-family: "BrandonGrotsque Bold";
+}
+
+.jumbotron h4 {
+	font-family: "BrandonGrotsque Light";
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* HEADER styles end */
+
+
+/* PROMO styles begin*/
+
+
+.promo-container.row {
+	margin-top: 30px;
+	vertical-align: middle;
+}
+
+.promo-container.row {
+	padding: 60px 120px 60px 120px;
+}
+
+.promo-container.row:last-child {
+	background-color: #FAFAFA;
+
+}
+
+.promo-container.row h3{
+	font-family: "Brandon Grotsque";
+	font-size: 46px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	vertical-align: middle;
+}
+
+.promo-container.row p {
+	padding-bottom: 10px;
+	font-family: "BrandonGrotsque";
+}
+
+
+.tree {
+	background-color: transparent;
+	float: right;
+}
+.row-img.second {
+  display: flex;
+  flex-direction: column;
+}
+.projects {
+  flex-direction: row;
+}
+/* PROMO styles end*/
+
+
+
+/* DIRECTION styles begin*/
+
+.direction .container {
+padding: 60px 120px 60px 120px;
+}
+
+.circle-icon {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background-color: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.circle-icon img {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+}
+
+.dir-item {
+	padding: 20px 20px 20px 20px;
+}
+
+.dir-item h4 {
+	font-weight: bold;
+}
+
+/* DIRECTION styles end*/
+
+/*CLIENTS styles begin*/
+.testimonials {
+	background-color: #FAFAFA;;
+}
+
+.testimonials .page-header {
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+}
+
+.testimonials .page-header h3{
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.testimonials .page-header span{
+	font-size: 14px;
+	font-weight: normal;
+	color: grey;
+}
+
+.img-circle {
+	float: left;
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin-right: 20px;
+
+}
+
+/*CLIENTS styles end*/
+
+/*TEAM styles begin*/
+.team {
+	background-color: #111111;
+	color: white;
+}
+.team .container {
+	padding: 40px 70px 40px 70px;
+}
+
+.team .page-header {
+	vertical-align: middle;
+	text-align: center;
+	padding: 0px 0px 40px 0px;
+}
+
+
+.team .page-header h3{
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.team .page-header span{
+	font-size: 14px;
+	font-weight: normal;
+	color: grey;
+}
+
+
+.team .img-circle {
+	border: 6px white solid;
+}
+
+/*TEAM styles end*/
+
+footer {
+background-color: #7690c5;
+color: white;
+}
+
+.social {
+	list-style: none;
+	display: inline-block;
+}
+
+.social li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 3px solid white;
+	margin-right: 20px;
+}
+
+
+
+.contacts {
+	list-style: none;
+}
+
+.contact > li {
+	margin-top: 10px;
+}
+
+
+.form-group {
+	width: 400px;
+}
