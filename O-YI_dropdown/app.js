@@ -6,7 +6,7 @@ function makeUL(array) {
     for(var i = 0; i < array.length; i++) {
         // Create the list item:
         var item = document.createElement('li')
-        //item.setAttribute('class', 'normal');
+   
         // Set its contents:
 if (array[i].population / 1000000 >= 1) {
         item.appendChild(document.createTextNode(array[i].city + ', населення ' + (array[i].population / 1000000).toFixed(1) + ' млн') );
@@ -42,6 +42,7 @@ function toggle(){
   var nav = document.getElementById('dropdown');
   var btn = document.getElementsByClassName('menu_btn')[0];
   nav.classList.toggle('open');
+  
   btn.classList.toggle('reverse');
 
 }
